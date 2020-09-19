@@ -1,6 +1,3 @@
-.tox :not(svg) {
-	color: #000000 !important
-}
 h1,h2,h3,h4 {
 	margin: 0 0 0.5rem;
 	padding: 0;
@@ -8,35 +5,25 @@ h1,h2,h3,h4 {
 }
 h1 {
 	font-size: 2em;
-	border-bottom: 2px solid #782e22
+	border-bottom: 2px solid
 }
 h2 {
 	font-size: 1.5em;
-	border-bottom: 1px solid #782e22
+	border-bottom: 1px solid
 }
 h3 {
 	font-size: 1.125em
 }
-.mce-content-body {
-	color: #ffffff !important
-}
-body#tinymce {
-	color: #ffffff !important
-}
 a {
 	cursor: pointer
 }
-a[href] {
-	color: #ff6400
-}
 a:hover {
-	text-shadow: 0 0 8px #ff000000
+	text-shadow: 0 0 8px
 }
 a.entity-link {
-	background: #dddddd;
 	border-radius: 2px;
 	padding: 0 2px;
-	border: 1px solid #bbbbbb;
+	border: 1px solid;
 	white-space: nowrap;
 	word-break: break-all
 }
@@ -44,11 +31,7 @@ a.entity-link i {
 	opacity: 0.5
 }
 p {
-	margin: 0.5em 0;
-	color: #ffffff
-}
-::selection {
-	background: #cccccc
+	margin: 0.5em 0
 }
 ul,ol {
 	margin: 0.5em 0;
@@ -57,7 +40,7 @@ ul,ol {
 blockquote {
 	margin: 0.5em 0 0.5em 10px;
 	padding: 0 0 0 20px;
-	border-left: 3px solid #aaaaaa;
+	border-left: 3px solid;
 	font-style: italic
 }
 .tox.tox-tinymce {
@@ -68,23 +51,20 @@ blockquote em {
 }
 section.secret {
 	padding: 0 5px;
-	background: #350079;
-	border-top: 1px solid #666666;
-	border-bottom: 1px solid #666666
+	border-top: 1px solid;
+	border-bottom: 1px solid
 }
 button {
 	width: 100%;
 	margin: 0 2px;
-	background: #ffffff;
-	border: 1px solid #aaaaaa;
+	border: 1px solid;
 	border-radius: 3px;
 	font-size: 14px;
 	line-height: 28px;
-	font-family: "Signika";
-	color: #ffffff
+	font-family: "Signika"
 }
 button:hover {
-	box-shadow: 0 0 5px #ff0000
+	box-shadow: 0 0 5px
 }
 button:focus {
 	outline: none
@@ -96,45 +76,37 @@ textarea {
 	width: 100%;
 	min-height: 50px;
 	padding: 5px;
-	background: #223953;
-	border: 1px solid #627184;
+	border: 1px solid;
 	border-radius: 3px;
 	-webkit-user-select: text;
 	-moz-user-select: text;
 	-ms-user-select: text;
-	user-select: text;
-	color: #ffffff
+	user-select: text
 }
 textarea:focus {
-	outline: 2px solid #782e22;
-	box-shadow: 0 0 10px #ff6400;
-	outline: 2px solid #782e22;
+	outline: 2px solid;
+	box-shadow: 0 0 10px;
+	outline: 2px solid;
 	border-style: ridge !important;
-	border-color: #ffffff !important;
 	border-width: 5px !important;
-	box-shadow: 0 0 10px #ff6400;
-	background: #5c4141 !important;
-	color: #ffffff
+	box-shadow: 0 0 10px
 }
 table {
 	width: 98%;
 	border-collapse: collapse;
-	background: #000000;
-	border: 1px solid #111111;
-	color: #ffffff
+	border: 1px solid;
 }
 ::-webkit-scrollbar {
 	width: 6px
 }
 ::-webkit-scrollbar-track {
-	box-shadow: 0 0 1px #999999 inset;
+	box-shadow: 0 0 1px inset;
 	border-radius: 4px
 }
 ::-webkit-scrollbar-thumb {
 	outline: none;
 	border-radius: 3px;
-	background: #782e22;
-	border: 1px solid #ff6400
+	border: 1px solid
 }
 body {
 	height: calc(100vh - 16px);
@@ -142,6 +114,5 @@ body {
 	padding: 8px;
 	overflow-y: auto;
 	font-family: "Signika", "Palatino Linotype", serif;
-	font-size: 14px;
-	color: #ffffff
+	font-size: 14px
 }
