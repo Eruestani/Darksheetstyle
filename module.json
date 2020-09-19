@@ -7,7 +7,7 @@
 	"systems": ["dnd5e", "pf1"],
 	"styles": ["css/darksheet.css", "css/mce.css"],
 	 "socket": true,
-    "url": "https://github.com/Handyfon/Darksheetstyle",
+    "url": "https://github.com/Eruestani/Darksheetstyle",
     "manifest": "https://raw.githubusercontent.com/Eruestani/Darksheetstyle/master/module.json",
     "download": "https://github.com/Eruestani/Darksheetstyle/raw/master/darksheet-style.zip",
 	"minimumCoreVersion": "0.5.5",
